@@ -1,0 +1,52 @@
+#qte{
+    display: flex;
+    justify-content: center;  
+    
+}
+#qte p{
+    font-size: 20PX;
+}
+#like{
+    display: flex;
+    justify-content: space-between;
+}
+#cards{
+    cursor: pointer;
+    margin-top: 2rem;
+    display: flex;
+    justify-content:center;
+    margin-top: 45px;
+    justify-content: space-between;
+
+
+
+}
+#like1:hover{
+   color: red;
+}
+#trash:hover{
+   color: red;
+}
+.logo-container {
+    overflow: hidden; 
+    width: fit-content; 
+}
+
+.logo {
+    transition: transform 2s; 
+}
+
+.logo-c:hover .logo {
+    transform: translateX(60px);
+    }
+    .navbar{
+        background-color: rgba(174, 238, 234, 0.234);
+    }
+    #totalprice{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+.liked {
+    color: red;
+}
